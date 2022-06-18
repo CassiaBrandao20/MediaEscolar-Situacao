@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="615.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mediaescolarsituacao.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="601.0" fitWidth="613.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagemmedia.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="260.0" layoutY="405.0" onAction="#calcular" style="-fx-background-color: #3CB371;" text="CALCULAR">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="20.0" layoutY="288.0" minHeight="16" minWidth="69" text="ALUNO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="label1" layoutX="15.0" layoutY="346.0" minHeight="16" minWidth="69" text="1ª NOTA:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label11" layoutX="424.0" layoutY="346.0" minHeight="16" minWidth="69" text="3ª NOTA:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label12" layoutX="220.0" layoutY="346.0" minHeight="16" minWidth="69" text="2ª NOTA:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxaluno" layoutX="106.0" layoutY="282.0" prefHeight="39.0" prefWidth="493.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxnota1" layoutX="103.0" layoutY="340.0" prefHeight="25.0" prefWidth="91.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxnota2" layoutX="306.0" layoutY="340.0" prefHeight="25.0" prefWidth="91.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxnota3" layoutX="511.0" layoutY="340.0" prefHeight="25.0" prefWidth="91.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="cxresult" layoutX="91.0" layoutY="463.0" prefHeight="93.0" prefWidth="455.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+    </children>
+</AnchorPane>
